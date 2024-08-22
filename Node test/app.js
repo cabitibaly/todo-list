@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json())
 
 async function connect() {
-    await mongoose.connect('mongodb+srv://bclementalex:3s0uwKABoXx4Equ8@cluster0.bua6drz.mongodb.net/');
+    await mongoose.connect('Your Cluster url');
     console.log("db connected")
 }
 
